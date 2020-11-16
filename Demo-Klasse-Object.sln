@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Demo-Klasse-Object", "Demo-Klasse-Object\1. Demo-Klasse-Object.csproj", "{E46960B7-C344-468A-824C-F4CB371935BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Demo-Klasse-Object", "Demo-Klasse-Object\1. Demo-Klasse-Object.csproj", "{E46960B7-C344-468A-824C-F4CB371935BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Demo-ConstructorenHond", "Demo-ConstructorenHond\2.Demo-ConstructorenHond.csproj", "{65A58EDA-562F-4CAF-8137-F74FF10E4CB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Demo-ConstructorenHond", "Demo-ConstructorenHond\2.Demo-ConstructorenHond.csproj", "{65A58EDA-562F-4CAF-8137-F74FF10E4CB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_HondenProperties", "Demo_HondenProperties\Demo_HondenProperties.csproj", "{3DB0E805-5D42-4EFA-92A3-B49708244758}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.Demo_HondenProperties", "Demo_HondenProperties\3.Demo_HondenProperties.csproj", "{3DB0E805-5D42-4EFA-92A3-B49708244758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Demo_DynamischeProperty", "Demo_DynamischeProperty\4.Demo_DynamischeProperty.csproj", "{EEBBDF6E-60FD-4BA7-88CB-D67DFF06BDAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Demo_AutoProperty", "Demo_AutoProperty\5.Demo_AutoProperty.csproj", "{96438F31-0881-4FBC-ADE6-70DDC82E9713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Demo_UitgebreideObjectInitializers", "Demo_UitgebreideObjectInitializers\6.Demo_UitgebreideObjectInitializers.csproj", "{9DB4112B-1865-4EA2-90B6-4647ADA2B19A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Demo_Property_Set_Validatie", "Demo_Property_Set_Validatie\7.Demo_Property_Set_Validatie.csproj", "{A55CE446-2A75-4E2D-91CC-A3D4802A253B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +35,22 @@ Global
 		{3DB0E805-5D42-4EFA-92A3-B49708244758}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DB0E805-5D42-4EFA-92A3-B49708244758}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DB0E805-5D42-4EFA-92A3-B49708244758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEBBDF6E-60FD-4BA7-88CB-D67DFF06BDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBBDF6E-60FD-4BA7-88CB-D67DFF06BDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBBDF6E-60FD-4BA7-88CB-D67DFF06BDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBBDF6E-60FD-4BA7-88CB-D67DFF06BDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96438F31-0881-4FBC-ADE6-70DDC82E9713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96438F31-0881-4FBC-ADE6-70DDC82E9713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96438F31-0881-4FBC-ADE6-70DDC82E9713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96438F31-0881-4FBC-ADE6-70DDC82E9713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB4112B-1865-4EA2-90B6-4647ADA2B19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB4112B-1865-4EA2-90B6-4647ADA2B19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB4112B-1865-4EA2-90B6-4647ADA2B19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB4112B-1865-4EA2-90B6-4647ADA2B19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A55CE446-2A75-4E2D-91CC-A3D4802A253B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55CE446-2A75-4E2D-91CC-A3D4802A253B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55CE446-2A75-4E2D-91CC-A3D4802A253B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55CE446-2A75-4E2D-91CC-A3D4802A253B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
