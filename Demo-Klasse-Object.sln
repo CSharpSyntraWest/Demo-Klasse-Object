@@ -9,13 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Demo-ConstructorenHond", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.Demo_HondenProperties", "Demo_HondenProperties\3.Demo_HondenProperties.csproj", "{3DB0E805-5D42-4EFA-92A3-B49708244758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Demo_DynamischeProperty", "Demo_DynamischeProperty\4.Demo_DynamischeProperty.csproj", "{EEBBDF6E-60FD-4BA7-88CB-D67DFF06BDAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Demo_DynamischeProperty", "Demo_DynamischeProperty\4.Demo_DynamischeProperty.csproj", "{EEBBDF6E-60FD-4BA7-88CB-D67DFF06BDAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Demo_AutoProperty", "Demo_AutoProperty\5.Demo_AutoProperty.csproj", "{96438F31-0881-4FBC-ADE6-70DDC82E9713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.Demo_AutoProperty", "Demo_AutoProperty\5.Demo_AutoProperty.csproj", "{96438F31-0881-4FBC-ADE6-70DDC82E9713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Demo_UitgebreideObjectInitializers", "Demo_UitgebreideObjectInitializers\6.Demo_UitgebreideObjectInitializers.csproj", "{9DB4112B-1865-4EA2-90B6-4647ADA2B19A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.Demo_UitgebreideObjectInitializers", "Demo_UitgebreideObjectInitializers\6.Demo_UitgebreideObjectInitializers.csproj", "{9DB4112B-1865-4EA2-90B6-4647ADA2B19A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Demo_Property_Set_Validatie", "Demo_Property_Set_Validatie\7.Demo_Property_Set_Validatie.csproj", "{A55CE446-2A75-4E2D-91CC-A3D4802A253B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.Demo_Property_Set_Validatie", "Demo_Property_Set_Validatie\7.Demo_Property_Set_Validatie.csproj", "{A55CE446-2A75-4E2D-91CC-A3D4802A253B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoRandomKlasse", "DemoRandomKlasse\DemoRandomKlasse.csproj", "{9F587FE7-89CF-453A-A913-DAA659C114FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_constFieldInClass", "Demo_constFieldInClass\Demo_constFieldInClass.csproj", "{4F772CF7-F29B-4297-BA14-140C7B9D6835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{A55CE446-2A75-4E2D-91CC-A3D4802A253B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A55CE446-2A75-4E2D-91CC-A3D4802A253B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A55CE446-2A75-4E2D-91CC-A3D4802A253B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F587FE7-89CF-453A-A913-DAA659C114FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F587FE7-89CF-453A-A913-DAA659C114FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F587FE7-89CF-453A-A913-DAA659C114FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F587FE7-89CF-453A-A913-DAA659C114FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F772CF7-F29B-4297-BA14-140C7B9D6835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F772CF7-F29B-4297-BA14-140C7B9D6835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F772CF7-F29B-4297-BA14-140C7B9D6835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F772CF7-F29B-4297-BA14-140C7B9D6835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
